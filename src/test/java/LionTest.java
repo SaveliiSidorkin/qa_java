@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 @RunWith(MockitoJUnitRunner.class)
 public class LionTest {
     private final String gender = "Самец";
-    private final String unknownGender = "вфыв";
+    private final String unknownGender = "Львица";
     private final String textException = "Используйте допустимые значения пола животного - самец или самка";
     Lion lion;
     @Mock
